@@ -1,0 +1,112 @@
+{
+    "product":[
+        {
+            "id":"1",
+            "name":"smart watch for men",
+            "category":"Men",
+            "brand":"rolex",
+            "price":"35000",
+            "description":"Rolex watch for men best classic watch , premium watch for men, Latest stylish watch",
+            "image":"https://static.helioswatchstore.com/media/catalog/product/cache/dd1c3400e344f54d12df823ec560a116/v/e/vevk00620_1.jpg"
+        },
+        {
+            "id":"2",
+            "name":"NoiseFit Halo ",
+            "category":"Men",
+            "brand":"NoiseFit",
+            "price":"2799",
+            "description":"NoiseFit Halo 1.43 AMOLED Display, Bluetooth Calling Round Dial Smart Watch",
+            "image":"https://m.media-amazon.com/images/I/71aTghUQfqL._SL1500_.jpg"
+        },
+        {
+            "id":"3",
+            "name":"Fire-Boltt Phoenix",
+            "category":"Men",
+            "brand":"Fire-Boltt",
+            "price":"1799",
+            "description":"Fire-Boltt Phoenix Ultra Luxury Stainless Steel, Bluetooth Calling Smartwatch, AI Voice Assistant",
+            "image":"https://m.media-amazon.com/images/I/71wXX5IRnzL._SL1500_.jpg"
+        },
+        {
+            "id":"4",
+            "name":"Noise Diva Smartwatch",
+            "category":"Women",
+            "brand":"Noise",
+            "price":"3499",
+            "description":"Noise Diva Smartwatch with Diamond Cut dial, Glossy Metallic Finish, AMOLED Display",
+            "image":"https://m.media-amazon.com/images/I/81CdhAX0D+L._SL1500_.jpg"
+        },
+        {
+            "id":"5",
+            "name":"LOUIS DEVIN",
+            "category":"Men",
+            "brand":"LOUIS DEVIN",
+            "price":"3699",
+            "description":"LOUIS DEVIN Silicone Strap Analog Wrist Watch for Men (Black/Blue/Red) | LD-BK054",
+            "image":"https://m.media-amazon.com/images/I/61LO6l4zB4L._SX679_.jpg"
+        },
+        {
+            "id":"6",
+            "name":"Olevs SmartWatch",
+            "category":"Men",
+            "brand":"OLEVS",
+            "price":"3235",
+            "description":"OLEVS Mens Watch Luxury Dress Business Casual Big Face Analog Quartz Watch Stainless Steel Date",
+            "image":"https://m.media-amazon.com/images/I/71bdb3BmmtL._SX679_.jpg"
+        },
+        {
+            "id":"7",
+            "name":"Fire-Boltt Ninja Call Pro",
+            "category":"Men",
+            "brand":"Fire-Boltt",
+            "price":"1399",
+            "description":"Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240 * 280 Pixel",
+            "image":"https://m.media-amazon.com/images/I/41LBAyIUexL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id":"8",
+            "name":"Emporio Armani Mario ",
+            "category":"Men",
+            "brand":"Armani",
+            "price":"35595",
+            "description":"Emporio Armani Mario Analog Green Dial Men's Watch-AR60053 Stainless Steel, Silver Strap",
+            "image":"https://m.media-amazon.com/images/I/51LZEQrjIuL._SX679_.jpg"
+        },
+        {
+            "id":"9",
+            "name":"ORSGA Fleur Bracelet",
+            "category":"Women",
+            "brand":"ORSGA",
+            "price":"1803",
+            "description":"ORSGA Fleur Bracelet Watch for Women Dial Flower Chain Watches Analog Ladies Latest",
+            "image":"https://m.media-amazon.com/images/I/71bm7W4ezQL._SX679_.jpg"
+        },
+        {
+            "id":"10",
+            "name":"boAt Wave Lite Smart",
+            "category":"Men",
+            "brand":"boAt",
+            "price":"35000",
+            "description":"\"boAt Wave Lite Smart Watch w/ 1.69\" (4.2 cm) HD Display, Heart Rate & SpO2 Level Monitor",
+            "image":"https://m.media-amazon.com/images/I/61apsPEds-L._SX679_.jpg"
+        },
+        {
+            "id":"11",
+            "name":"Vibez by Lifelong Ruby",
+            "category":"Women",
+            "brand":"Vibez",
+            "price":"3499",
+            "description":"AMOLED Smartwatch for Women with Metal Strap, Bluetooth Calling, 60 Hz, Voice Assistance",
+            "image":"https://m.media-amazon.com/images/I/61euGYl6eLL._SX522_.jpg"
+        },
+        {
+            "id":"12",
+            "name":"Titan Women's Lagan Chic",
+            "category":"Women",
+            "brand":"Titan",
+            "price":"1995",
+            "description":"Titan Women's Lagan Chic: Studded Brown Dial Leather Analog Watch with & Elegant Hands-2656WL01",
+            "image":"https://m.media-amazon.com/images/I/61EAcTdXZ7L._SX679_.jpg"
+        }
+    ]
+}
