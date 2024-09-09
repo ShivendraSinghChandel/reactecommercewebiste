@@ -10,6 +10,8 @@ import Kids from "./pages/Kids";
 import MyCart from "./pages/MyCart";
 import SearchData from "./pages/SearchData";
 import Blog from "./pages/Blog";
+import Checkout from "./pages/Checkout";
+import PaymentDone from "./pages/PaymentDone";
 const App=()=>{
   return(
     <>
@@ -27,6 +29,8 @@ const App=()=>{
           <Route path="mycart" element={<MyCart/>}/>
           <Route path="searchdata/:txtdata" element={<SearchData/>}/>
           <Route path="blog" element={<Blog/>}/>
+          <Route path="checkout" element={<Checkout/>}/>
+          <Route path="paydone" element={<PaymentDone/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

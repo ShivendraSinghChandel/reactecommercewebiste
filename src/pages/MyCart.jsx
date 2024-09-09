@@ -1,11 +1,13 @@
 import { useSelector, useDispatch } from "react-redux";
 import Table from 'react-bootstrap/Table';
-import { Button } from "react-bootstrap";
+import  Button  from "react-bootstrap/Button";
 import { FaPlusCircle } from "react-icons/fa";
 import { FaMinusCircle } from "react-icons/fa";
 import { cartdecrement, cartdelete, cartincrement } from "../HatSlice";
+import { useNavigate } from "react-router-dom";
 const MyCart=()=>{
     const mydata=useSelector((state)=>state.ourcart.cart);
+    const mynav=useNavigate();
     console.log(mydata[0])
     const dispatch=useDispatch();
 
@@ -53,6 +55,10 @@ const MyCart=()=>{
             </>
         )
     })
+
+    const checkout=()=>{
+        mynav("/checkout");
+    }
     return(
         <>
          <Table striped bordered hover>
@@ -85,6 +91,9 @@ const MyCart=()=>{
         </tr>
             </tbody>
          </Table>
+         <div style={{display:"flex",justifyContent:"center"}}>
+            <Button onClick={checkout}>Checkout</Button>
+         </div>
         </>
     )
 }

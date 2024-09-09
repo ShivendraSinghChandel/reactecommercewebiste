@@ -80,6 +80,10 @@ const Product = () => {
     setDisplayState(true);
   }
 
+  const handleSubPrice=()=>{
+    
+  }
+
   return (
     <>
       <div id="shoppage">
