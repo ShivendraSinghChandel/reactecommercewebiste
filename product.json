@@ -2,111 +2,135 @@
     "product":[
         {
             "id":"1",
-            "name":"smart watch for men",
-            "category":"Men",
-            "brand":"rolex",
-            "price":"35000",
-            "description":"Rolex watch for men best classic watch , premium watch for men, Latest stylish watch",
-            "image":"https://static.helioswatchstore.com/media/catalog/product/cache/dd1c3400e344f54d12df823ec560a116/v/e/vevk00620_1.jpg"
+            "name":"XTRIM Head Caps for Men",
+            "category":"MEN",
+            "brand":"XTRIM",
+            "price":"899",
+            "description":"XTRIM Head Caps for Men, Unisex Sports Caps with Adjustable Strap, Summer Cap for Men, Cap for All Sports, Cap for Girls, Gym Caps for Men & Women, Cap Sports, Caps for Men with Air Holes",
+            "image":"https://m.media-amazon.com/images/I/815gWjY38xL._SX679_.jpg",
+            "offer":"yes",
+            "discount":"65"
         },
         {
             "id":"2",
-            "name":"NoiseFit Halo ",
-            "category":"Men",
-            "brand":"NoiseFit",
-            "price":"2799",
-            "description":"NoiseFit Halo 1.43 AMOLED Display, Bluetooth Calling Round Dial Smart Watch",
-            "image":"https://m.media-amazon.com/images/I/71aTghUQfqL._SL1500_.jpg"
+            "name":"Boldfit Head Caps for Men",
+            "category":"MEN",
+            "brand":"Boldfit",
+            "price":"475",
+            "description":"Boldfit Head Caps for Men Unisex Mens Caps with Adjustable Strap in Summer for Men Caps Men for All Sports Cap For Girls caps Gym Caps for Men Women Cap Sports Caps for Men with Airholes - Blackh",
+            "image":"https://m.media-amazon.com/images/I/410PFyWS44L._SL1001_.jpg",
+            "offer":"no",
+            "discount":"0"
         },
         {
             "id":"3",
-            "name":"Fire-Boltt Phoenix",
-            "category":"Men",
-            "brand":"Fire-Boltt",
-            "price":"1799",
-            "description":"Fire-Boltt Phoenix Ultra Luxury Stainless Steel, Bluetooth Calling Smartwatch, AI Voice Assistant",
-            "image":"https://m.media-amazon.com/images/I/71wXX5IRnzL._SL1500_.jpg"
+            "name":"Adjustable Baseball Cap for Men",
+            "category":"MEN",
+            "brand":"Nora Nico",
+            "price":"474",
+            "description":"Amazon Brand - Nora Nico Stylish Cotton Adjustable Baseball Cap for Men and Women, Embroidered Unisex Cap for Summers",
+            "image":"https://m.media-amazon.com/images/I/61OS8zQ9WdL._SX679_.jpg",
+            "offer":"no",
+            "discount":"0"
         },
         {
             "id":"4",
-            "name":"Noise Diva Smartwatch",
-            "category":"Women",
-            "brand":"Noise",
-            "price":"3499",
-            "description":"Noise Diva Smartwatch with Diamond Cut dial, Glossy Metallic Finish, AMOLED Display",
-            "image":"https://m.media-amazon.com/images/I/81CdhAX0D+L._SL1500_.jpg"
+            "name":"Hats for Mens",
+            "category":"MEN",
+            "brand":"FabSeasons",
+            "price":"999",
+            "description":"FabSeasons Checkered Casual Golf Flat Caps & Hats for Mens",
+            "image":"https://m.media-amazon.com/images/I/91hj3N2bVrL._SY741_.jpg",
+            "offer":"yes",
+            "discount":"72"
         },
         {
             "id":"5",
-            "name":"LOUIS DEVIN",
-            "category":"Men",
-            "brand":"LOUIS DEVIN",
+            "name":"Kid's Baseball Cap",
+            "category":"KIDS",
+            "brand":"Puma",
             "price":"3699",
-            "description":"LOUIS DEVIN Silicone Strap Analog Wrist Watch for Men (Black/Blue/Red) | LD-BK054",
-            "image":"https://m.media-amazon.com/images/I/61LO6l4zB4L._SX679_.jpg"
+            "description":"PUMA Kid's Baseball Cap",
+            "image":"https://m.media-amazon.com/images/I/51cb+T566xL._SX679_.jpg",
+            "offer":"no",
+            "discount":"0"
         },
         {
             "id":"6",
-            "name":"Olevs SmartWatch",
-            "category":"Men",
-            "brand":"OLEVS",
-            "price":"3235",
-            "description":"OLEVS Mens Watch Luxury Dress Business Casual Big Face Analog Quartz Watch Stainless Steel Date",
-            "image":"https://m.media-amazon.com/images/I/71bdb3BmmtL._SX679_.jpg"
+            "name":"Girls Disney Cap",
+            "category":"KIDS",
+            "brand":"Amazon Brand - Symbol",
+            "price":"999",
+            "description":"Amazon Brand - Symbol Girls Disney Cap Pack of 1, Frozen Printed Cap for Girls, 100% Cotton, Official Disney Licensed Product",
+            "image":"https://m.media-amazon.com/images/I/91E9fEDH64L._SX679_.jpg",
+            "offer":"yes",
+            "discount":"70"
         },
         {
             "id":"7",
-            "name":"Fire-Boltt Ninja Call Pro",
-            "category":"Men",
-            "brand":"Fire-Boltt",
-            "price":"1399",
-            "description":"Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240 * 280 Pixel",
-            "image":"https://m.media-amazon.com/images/I/41LBAyIUexL._SX300_SY300_QL70_FMwebp_.jpg"
+            "name":"Future Intelligence Books",
+            "category":"KIDS",
+            "brand":"Fiblaze Kids Cap",
+            "price":"399",
+            "description":"Future Intelligence Books Fiblaze Kids Cap for Boys/Girls 3-4 Years Unisex (Free Size)",
+            "image":"https://m.media-amazon.com/images/I/41ElH2NqVeL._SX679_.jpg",
+            "offer":"yes",
+            "discount":"39"
         },
         {
             "id":"8",
-            "name":"Emporio Armani Mario ",
-            "category":"Men",
-            "brand":"Armani",
-            "price":"35595",
-            "description":"Emporio Armani Mario Analog Green Dial Men's Watch-AR60053 Stainless Steel, Silver Strap",
-            "image":"https://m.media-amazon.com/images/I/51LZEQrjIuL._SX679_.jpg"
+            "name":"Bucket Hat",
+            "category":"KIDS",
+            "brand":"VRITRAZ",
+            "price":"349",
+            "description":"VRITRAZ Cotton Kids Bucket Hat with Adjustable strap for Girls and Boys, 3-10 years",
+            "image":"https://m.media-amazon.com/images/I/71pIFx8EKzL._SX679_.jpg",
+            "offer":"no",
+            "discount":"0"
         },
         {
             "id":"9",
-            "name":"ORSGA Fleur Bracelet",
-            "category":"Women",
-            "brand":"ORSGA",
-            "price":"1803",
-            "description":"ORSGA Fleur Bracelet Watch for Women Dial Flower Chain Watches Analog Ladies Latest",
-            "image":"https://m.media-amazon.com/images/I/71bm7W4ezQL._SX679_.jpg"
+            "name":"Adjustable Sun Visor",
+            "category":"WOMEN",
+            "brand":"Nora Nico",
+            "price":"455",
+            "description":"Amazon Brand - Nora Nico Unisex Cotton Stylish Adjustable Sun Visor, Sun UV Protection Cap",
+            "image":"https://m.media-amazon.com/images/I/51LdwRCCqJL._SX679_.jpg",
+            "offer":"no",
+            "discount":"0"
         },
         {
             "id":"10",
-            "name":"boAt Wave Lite Smart",
-            "category":"Men",
-            "brand":"boAt",
-            "price":"35000",
-            "description":"\"boAt Wave Lite Smart Watch w/ 1.69\" (4.2 cm) HD Display, Heart Rate & SpO2 Level Monitor",
-            "image":"https://m.media-amazon.com/images/I/61apsPEds-L._SX679_.jpg"
+            "name":"Hip Hop Caps",
+            "category":"WOMEN",
+            "brand":"DRUNKEN ",
+            "price":"978",
+            "description":"DRUNKEN Cap For Men Women Unisex Topi Head Branded Good Time Boy's Girl's Hip Hop Caps Adjustable Strap Summer Sports Gym Dance Cotton Free Size Woolen Fashion Baseball Snapback Winter Fleece (Dark Grey)",
+            "image":"https://m.media-amazon.com/images/I/81V-G5uxO5L._SX679_.jpg",
+            "offer":"yes",
+            "discount":"38"
         },
         {
             "id":"11",
-            "name":"Vibez by Lifelong Ruby",
-            "category":"Women",
-            "brand":"Vibez",
-            "price":"3499",
-            "description":"AMOLED Smartwatch for Women with Metal Strap, Bluetooth Calling, 60 Hz, Voice Assistance",
-            "image":"https://m.media-amazon.com/images/I/61euGYl6eLL._SX522_.jpg"
+            "name":"Fur Karakuri Cap",
+            "category":"WOMEN",
+            "brand":"Generic",
+            "price":"999",
+            "description":"Black Pakistani Karakuri Cap,Fur Karakuri Cap, Winter Season Jinnah Cap, Winter Season Kashmiri Hat, Fur Handmade Karakul Cap",
+            "image":"https://m.media-amazon.com/images/I/81mZoJnY5BL._SX679_.jpg",
+            "offer":"no",
+            "discount":"0"
         },
         {
             "id":"12",
-            "name":"Titan Women's Lagan Chic",
-            "category":"Women",
-            "brand":"Titan",
-            "price":"1995",
-            "description":"Titan Women's Lagan Chic: Studded Brown Dial Leather Analog Watch with & Elegant Hands-2656WL01",
-            "image":"https://m.media-amazon.com/images/I/61EAcTdXZ7L._SX679_.jpg"
+            "name":"Vizor Polyester Cap",
+            "category":"WOMEN",
+            "brand":"HEAD",
+            "price":"599",
+            "description":"Head Cap Vizor Polyester Cap (Black)",
+            "image":"https://m.media-amazon.com/images/I/51QNzOv0aBL._SX679_.jpg",
+            "offer":"yes",
+            "discount":"5"
         }
     ]
 }

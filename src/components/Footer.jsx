@@ -1,5 +1,19 @@
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol,MDBIcon} from 'mdb-react-ui-kit';
+import { FaFacebook } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
+import { FaEnvelopeOpen } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
+import { FaPrint } from "react-icons/fa6";
+import { FaGem } from "react-icons/fa";
+
 const Footer=()=>{
+  const mynav=useNavigate();
     return(
         <>
           <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
@@ -10,22 +24,22 @@ const Footer=()=>{
 
         <div>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="facebook-f" />
+          <FaFacebook />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="twitter" />
+          <FaTwitterSquare />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="google" />
+          <FaGoogle />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="instagram" />
+          <FaInstagramSquare />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="linkedin" />
+          <FaLinkedin />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="github" />
+          <FaGithub />
           </a>
         </div>
       </section>
@@ -35,35 +49,37 @@ const Footer=()=>{
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" />
+              <FaGem className='me-3' />
                 Company name
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+                HatStore Private Limited Bhopal. <br />
+                An International company producing <br />
+                hats since 2007 of hight quality <br /> 
+                and standard.
               </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
-                <a href='#!' className='text-reset'>
-                  Angular
+                <a href='' onClick={()=>{mynav("/men")}} className='text-reset'>
+                  Men
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  React
+                <a href='' onClick={()=>{mynav("/women")}} className='text-reset'>
+                  Women
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Vue
+                <a href='' onClick={()=>{mynav("/kids")}} className='text-reset'>
+                  Kids
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Laravel
+                <a href='' onClick={()=>{mynav("/sale")}} className='text-reset'>
+                  Sale
                 </a>
               </p>
             </MDBCol>
@@ -95,18 +111,18 @@ const Footer=()=>{
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
-                <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
+              <FaHome className='me-3'  />
+                Bhopal MP 462022, India
               </p>
               <p>
-                <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+              <FaEnvelopeOpen className='me-3'  />
+                hatstorebhopal@gmail.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+              <FaPhone className='me-3'  /> +91 1800 567 88
               </p>
               <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+              <FaPrint className='me-3'  /> +91 1802 567 89
               </p>
             </MDBCol>
           </MDBRow>
@@ -114,9 +130,9 @@ const Footer=()=>{
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+        © 2024 Copyright:
+        <a className='text-reset fw-bold' href='#'>
+          HatStore.com
         </a>
       </div>
     </MDBFooter>

@@ -1,7 +1,4 @@
-import Carousel from 'react-bootstrap/Carousel';
-import banner1 from '../images/carousalthird.jpg';
-import banner2 from '../images/carousalfirst.jpg';
-import banner3 from '../images/carousalsecond.jpg';
+
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Button from 'react-bootstrap/Button';
@@ -10,11 +7,11 @@ import { useDispatch } from 'react-redux';
 import { addtocart } from '../HatSlice';
 
 
-const Home=()=>{
+const Men=()=>{
     const [mydata,setMydata]=useState([]);
     const dispatch=useDispatch();
     const loadData=()=>{
-      let url="http://localhost:3000/product";
+      let url="http://localhost:3000/product/?category=MEN";
       axios.get(url).then((res)=>{
         setMydata(res.data);
       })
@@ -69,37 +66,10 @@ const Home=()=>{
    {
     dispatch(addtocart({id:id,name:nam,brand:brand,category:category,price:price,description:description,image:image,discount:discount,qnty:1}))
    }
-
-
     return(
         <>
-           <Carousel>
-      <Carousel.Item>
-        <img style={{width:"100%",height:"80vh"}} src={banner1} alt="" />
-        <Carousel.Caption>
-          <h3>HATSTORE EXCLUSIVE</h3>
-          <p>only available at HatStore</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-           <img style={{width:"100%",height:"80vh"}} src={banner2} alt="" />
-        <Carousel.Caption>
-          <h3>FITTED WORLD</h3>
-          <p>weekly exclusive drops of New Era</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-         <img style={{width:"100%",height:"80vh"}} src={banner3} alt="" />
-        <Carousel.Caption>
-          <h3>MOOMIN FALL NEWS</h3>
-          <p>
-          Explore over 20 000 caps, hats & beanies in stock!
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
     <div id='producttitle'>
-      <h1>Our Premium Products</h1>
+      <h1>Men's Hats</h1>
     </div>
     <div id='products'>
     {ans}
@@ -108,4 +78,4 @@ const Home=()=>{
     )
 }
 
-export default Home;
+export default Men;
