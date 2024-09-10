@@ -39,9 +39,9 @@ const SearchData=()=>{
     }, [])
     
     
-    const addtocartdata=(id,nam,brand,category,price,description,discount)=>
+    const addtocartdata=(id,nam,brand,category,price,description,image,discount)=>
         {
-         dispatch(addtocart({id:id,name:nam,brand:brand,category:category,price:price,description:description,discount:discount}))
+         dispatch(addtocart({id:id,name:nam,brand:brand,category:category,price:price,description:description,image:image,discount:discount,qnty:1}))
         }
      
     
@@ -50,8 +50,8 @@ const SearchData=()=>{
 
         const ans=mydata.map((key)=>{
             const status=key.name.includes(txtdata);
-            if(status){
             let offerPrice= (key.price-(key.price*key.discount/100)).toFixed(0);
+            if(status){
             return(
               <>
               {key.offer=="no"?
@@ -67,7 +67,7 @@ const SearchData=()=>{
                 {key.description}
               </Card.Text>
               <h6 style={{color:"red"}}>Price : {key.price} </h6>
-              <Button variant="primary" onClick={()=>{addtocartdata(key.id,key.name,key.brand,key.category,key.price,key.description,key.discount)}}>Add to Cart</Button>
+              <Button variant="primary" onClick={()=>{addtocartdata(key.id,key.name,key.brand,key.category,key.price,key.description,key.image,key.discount)}}>Add to Cart</Button>
             </Card.Body>
           </Card>:
           <Card style={{ width: '18rem',marginTop:"30px"}}>
@@ -84,7 +84,7 @@ const SearchData=()=>{
             <h6 style={{color:"red",textDecoration:"line-through"}}>Price : {key.price} </h6>
             <h5>Offer : {key.discount}%</h5>
             <h6>Today's Price : {offerPrice} </h6>
-            <Button variant="primary" onClick={()=>{addtocartdata(key.id,key.name,key.brand,key.category,key.price,key.description,key.discount)}}>Add to Cart</Button>
+            <Button variant="primary" onClick={()=>{addtocartdata(key.id,key.name,key.brand,key.category,offerPrice,key.description,key.image,key.discount)}}>Add to Cart</Button>
           </Card.Body>
         </Card>
           }
