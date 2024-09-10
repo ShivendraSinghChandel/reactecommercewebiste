@@ -49,7 +49,7 @@ const SearchData=()=>{
       
 
         const ans=mydata.map((key)=>{
-            const status=key.name.includes(txtdata);
+            const status=key.description.includes(txtdata) || key.category.includes(txtdata);
             let offerPrice= (key.price-(key.price*key.discount/100)).toFixed(0);
             if(status){
             return(

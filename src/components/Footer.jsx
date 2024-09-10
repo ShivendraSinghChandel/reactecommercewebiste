@@ -55,7 +55,7 @@ const Footer=()=>{
               <p>
                 HatStore Private Limited Bhopal. <br />
                 An International company producing <br />
-                hats since 2007 of hight quality <br /> 
+                hats since 2007 of high quality <br /> 
                 and standard.
               </p>
             </MDBCol>
