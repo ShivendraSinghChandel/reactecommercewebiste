@@ -19,6 +19,7 @@ const HatSlice=createSlice({
             }
             else{
                 state.cart.push(action.payload);
+                message.success("Added to Cart")
             }
         },
         cartincrement:(state,action)=>{

@@ -49,3 +49,32 @@
     margin: auto;
 
 }
+
+#registerform{
+    width: 60%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+
+#profilediv{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 50px 100px 50px 70px;
+}
+
+#detaildiv{
+    display: flex;
+    justify-content: space-between;
+    width:75%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 130px;
+    background-color: whitesmoke;
+    padding: 30px;
+}

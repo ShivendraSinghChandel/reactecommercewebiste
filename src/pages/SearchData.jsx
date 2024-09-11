@@ -1,5 +1,5 @@
 
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import axios from 'axios';
@@ -14,7 +14,8 @@ const SearchData=()=>{
     const {txtdata}= useParams();
     const [mydata, setMydata]=useState([]);
     const [isLoading, setIsLoading]= useState(true);
-    const dispatch= useDispatch();    
+    const dispatch= useDispatch();   
+    const mynav=useNavigate(); 
 
     useEffect(()=>{
         setTimeout(()=>{
@@ -37,6 +38,11 @@ const SearchData=()=>{
     useEffect(()=>{
       loadData();
     }, [])
+
+    const openDetail=(id)=>
+      {
+        mynav(`/opendetail/${id}`)
+      }
     
     
     const addtocartdata=(id,nam,brand,category,price,description,image,discount)=>
@@ -56,14 +62,14 @@ const SearchData=()=>{
               <>
               {key.offer=="no"?
               <Card style={{ width: '18rem',marginTop:"30px"}}>
-            <Card.Img style={{width:"100%",height:"250px"}} variant="top" src={key.image}/>
+            <Card.Img style={{width:"100%",height:"250px",cursor:"pointer"}} onClick={()=>{openDetail(key.id)}} variant="top" src={key.image}/>
             <Card.Body>
               <Card.Title> {key.name} </Card.Title>
               <h4  style={{color:"blue", fontSize:"14px"}}>  Brand : { key.brand} 
       
                {" "}   For - {key.category}
               </h4>
-              <Card.Text>
+              <Card.Text style={{cursor:"pointer"}} onClick={()=>{openDetail(key.id)}}>
                 {key.description}
               </Card.Text>
               <h6 style={{color:"red"}}>Price : {key.price} </h6>
@@ -71,14 +77,14 @@ const SearchData=()=>{
             </Card.Body>
           </Card>:
           <Card style={{ width: '18rem',marginTop:"30px"}}>
-          <Card.Img style={{width:"100%",height:"250px"}} variant="top" src={key.image}/>
+          <Card.Img style={{width:"100%",height:"250px",cursor:"pointer"}} onClick={()=>{openDetail(key.id)}} variant="top" src={key.image}/>
           <Card.Body>
             <Card.Title> {key.name} </Card.Title>
             <h4  style={{color:"blue", fontSize:"14px"}}>  Brand : { key.brand} 
       
              {" "}  For - {key.category}
             </h4>
-            <Card.Text>
+            <Card.Text style={{cursor:"pointer"}} onClick={()=>{openDetail(key.id)}}>
               {key.description}
             </Card.Text>
             <h6 style={{color:"red",textDecoration:"line-through"}}>Price : {key.price} </h6>
@@ -95,7 +101,7 @@ const SearchData=()=>{
      return(
             <>
            <div id="proHeading">
-            <h1> All Search  Watches</h1>
+            <h1> All Searched Hats</h1>
            </div>
            {isLoading ? (
              <center>

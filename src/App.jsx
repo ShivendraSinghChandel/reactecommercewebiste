@@ -12,6 +12,10 @@ import SearchData from "./pages/SearchData";
 import Blog from "./pages/Blog";
 import Checkout from "./pages/Checkout";
 import PaymentDone from "./pages/PaymentDone";
+import OpenDetail from "./pages/OpenDetail";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+import Profile from "./pages/Profile";
 const App=()=>{
   return(
     <>
@@ -31,6 +35,11 @@ const App=()=>{
           <Route path="blog" element={<Blog/>}/>
           <Route path="checkout" element={<Checkout/>}/>
           <Route path="paydone" element={<PaymentDone/>}/>
+          <Route path="opendetail/:pid" element={<OpenDetail/>}/>
+          <Route path="register" element={<Register/>}/>
+          <Route path="login" element={<Login/>}/>
+          <Route path="profile" element={<Profile/>}/>
+
           </Route>
         </Routes>
       </BrowserRouter>

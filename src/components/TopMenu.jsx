@@ -25,7 +25,7 @@ const TopMenu=()=>{
 
     return(
         <>
-           <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+           <Navbar style={{position:"sticky",top:"0px",zIndex:"10"}} collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">HatStore</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -45,8 +45,8 @@ const TopMenu=()=>{
           <Nav>
             <input type="search" value={searchdata} onChange={(e)=>{setSearchdata(e.target.value)}} style={{height:"30px",paddingLeft:"10px",marginTop:"10px",borderRadius:"50px 0px 0px 50px",border:"2px solid black",outline:"none"}} />
             <Nav.Link onClick={handleSearch} style={{height:"30px",marginTop:"10px",borderRadius:"0px 50px 50px 0px",backgroundColor:"black"}} >< IoSearch style={{marginBottom:"15px",color:"white"}} /></Nav.Link>
-            <Nav.Link ><FaUserLarge /></Nav.Link>
-            <Nav.Link onClick={mycart} ><FaShoppingCart /><sup>{datacount}</sup></Nav.Link>
+            {window.localStorage.length>=1?<Nav.Link as={Link} to="profile" ><FaUserLarge /></Nav.Link>:<Nav.Link as={Link} to="register" ><FaUserLarge /></Nav.Link>}
+            <Nav.Link onClick={mycart} ><FaShoppingCart />{datacount==0?<span></span>:<span style={{marginLeft:"5px",backgroundColor:"black",color:"white",borderRadius:"70%",padding:"1px 3px"}}> {datacount} </span>}</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

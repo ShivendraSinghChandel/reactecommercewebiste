@@ -1,0 +1,32 @@
+{
+  "User": [
+    {
+      "id": "1",
+      "name": "Rahul Sharma",
+      "email": "Rahul@gmail.com",
+      "contact": "4567890312",
+      "password": "rahul123"
+    },
+    {
+      "id": "76ac",
+      "email": "Rishabh@gmail.com",
+      "password": "rishabh123",
+      "name": "Rishabh Singh",
+      "contact": "7565334456"
+    },
+    {
+      "id": "0ed1",
+      "email": "raman@gmail.com",
+      "password": "raman123",
+      "name": "Raman",
+      "contact": "8960454231"
+    },
+    {
+      "id": "c3df",
+      "email": "karan@gmail.com",
+      "password": "karan123",
+      "name": "karan",
+      "contact": "7566234412"
+    }
+  ]
+}
