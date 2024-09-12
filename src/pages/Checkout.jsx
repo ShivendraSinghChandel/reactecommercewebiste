@@ -16,23 +16,23 @@ const Checkout=()=>{
                 <Form>
       <Form.Group className="mb-3">
         <Form.Label>Enter Name</Form.Label>
-        <Form.Control type="email"/>
+        <Form.Control type="text" required name='name' />
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Enter Email</Form.Label>
-        <Form.Control type="email"/>
+        <Form.Control type="email" required/>
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Enter City</Form.Label>
-        <Form.Control type="email"/>
+        <Form.Control type="text" required/>
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Enter Pin Code</Form.Label>
-        <Form.Control type="email"/>
+        <Form.Control type="text" maxLength="6" minLength="6"/>
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Enter Mobile No</Form.Label>
-        <Form.Control type="email"/>
+        <Form.Control type="tel" maxLength="10" minLength="10"/>
       </Form.Group>
     </Form>
             </div>

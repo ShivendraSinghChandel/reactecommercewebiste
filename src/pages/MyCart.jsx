@@ -5,10 +5,10 @@ import { FaPlusCircle } from "react-icons/fa";
 import { FaMinusCircle } from "react-icons/fa";
 import { cartdecrement, cartdelete, cartincrement } from "../HatSlice";
 import { useNavigate } from "react-router-dom";
+import { FaShoppingCart } from "react-icons/fa";
 const MyCart=()=>{
     const mydata=useSelector((state)=>state.ourcart.cart);
     const mynav=useNavigate();
-    console.log(mydata[0])
     const dispatch=useDispatch();
 
     const cartincre=(id)=>{
@@ -61,7 +61,20 @@ const MyCart=()=>{
     }
     return(
         <>
-         <Table striped bordered hover>
+         {mydata.length<1?(
+            
+            <div style={{textAlign:"center",margin:"100px 0px"}}>
+                 <FaShoppingCart style={{fontSize:"100px",border:"4px solid black",borderRadius:"50px",padding:"15px 20px"}} />
+                 <h3>YOUR CART IS CURRENTLY EMPTY</h3>
+                 <p>Looks like you have not made your choice yet. Before proceed to  <br />
+                    checkout you must add some products to your shopping cart.
+                    </p>
+
+            </div>
+
+            ):(
+            <>
+            <Table striped bordered hover>
             <thead>
                 <th>Sno</th>
                 <th>image</th>
@@ -93,7 +106,8 @@ const MyCart=()=>{
          </Table>
          <div style={{display:"flex",justifyContent:"center"}}>
             <Button onClick={checkout}>Checkout</Button>
-         </div>
+         </div></>)}
+         
         </>
     )
 }

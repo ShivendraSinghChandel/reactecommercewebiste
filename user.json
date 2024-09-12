@@ -27,6 +27,20 @@
       "password": "karan123",
       "name": "karan",
       "contact": "7566234412"
+    },
+    {
+      "id": "ab3d",
+      "email": "shreyansh@gmail.com",
+      "password": "shreyansh123",
+      "name": "Shreyansh Patel",
+      "contact": "6266448767"
+    },
+    {
+      "id": "191e",
+      "email": "sidhhant@gmail.com",
+      "password": "sidhant123",
+      "name": "Siddhant Salve",
+      "contact": "8643062464"
     }
   ]
 }
